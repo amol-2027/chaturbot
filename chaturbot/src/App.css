@@ -1,7 +1,17 @@
+html,
+body {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .home {
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
   height: 100vh;
-  overflow: hidden;
   position: relative;
   background: #000000;
 }
@@ -430,9 +440,13 @@ input[type="text"] + button[aria-label="Voice input"],
   }
 }
 @media (max-width: 600px) {
+  nav {
+    padding: 10px 8px;
+    font-size: 22px;
+  }
   .input-box {
-    gap: 8px;
-    padding: 12px 4px;
+    gap: 4px;
+    padding: 8px 2px;
   }
   .input-box > button[aria-label="Voice input"],
   #add,
