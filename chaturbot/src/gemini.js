@@ -1,7 +1,7 @@
 import { prevUser } from "./context/UserContext";
 
 const Api_Url =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IVnWyv_7xNgvREa9qS-aAxR_SU8mrN3ocb3EalNo8g3w";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBYywX4XLeO9v1ELLNDb8Ws_w5vs8P5G2g";
 
 export async function generateResponse() {
   let RequestOption = {
